@@ -19,5 +19,5 @@ Fourth, the **Main camera** object:
 It’s the default camera in Unity. It shows the whole game—like the player, planted seeds, and the UI. I can see the player move and seeds grow because of it. It’s important for the game to work.
 
 Finally, how these things work together:
-1. `Player -> Seed`: When I press Space, the `Update()` method sees it, and `PlantSeed()` makes a seed where the player is.
-2. `Seed -> UI`: The `Player` code sends seed numbers to `PlantCountUI`, and the UI text changes to show the new numbers.
+ `Player -> Seed`: When I press Space, the `Update()` method sees it, and `PlantSeed()` makes a seed where the player is.
+`Seed -> UI`: The `Player` code sends seed numbers to `PlantCountUI`, and the UI text changes to show the new numbers.
