@@ -21,3 +21,7 @@ It’s the default camera in Unity. It shows the whole game—like the player, p
 Finally, how these things work together:
  `Player -> Seed`: When I press Space, the `Update()` method sees it, and `PlantSeed()` makes a seed where the player is.
 `Seed -> UI`: The `Player` code sends seed numbers to `PlantCountUI`, and the UI text changes to show the new numbers.
+
+## Open-Source Assets
+If you added any other outside assets, list them here!
+- [Sprout Lands sprite asset pack](https://cupnooble.itch.io/sprout-lands-asset-pack) - character and item sprites
