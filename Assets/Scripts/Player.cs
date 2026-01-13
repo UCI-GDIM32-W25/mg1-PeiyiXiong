@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float vertical = Input.GetAxisRaw("Vertical");
         Vector3 moveDirection = new Vector3(horizontal, vertical, 0f).normalized;
         _playerTransform.Translate(moveDirection * _speed * Time.deltaTime);
 
