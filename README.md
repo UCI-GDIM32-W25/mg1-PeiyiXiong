@@ -25,5 +25,4 @@ Finally, how these things work together:
 My initial MG1 plan was almost the same as my final code and Unity setup, with no big changes. The only small adjustment was using `Input.GetAxisRaw()` for both horizontal and vertical player movement, instead of mixing it with `Input.GetAxis()`. I made this change because `Input.GetAxisRaw()` lets the player stop right away when I let go of the WASD keys, which makes the game feel smoother and more responsive.
 
 ## Open-Source Assets
-If you added any other outside assets, list them here!
 - [Sprout Lands sprite asset pack](https://cupnooble.itch.io/sprout-lands-asset-pack) - character and item sprites
